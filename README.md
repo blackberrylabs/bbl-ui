@@ -2,8 +2,9 @@
 
 **The shared face of the Blackberrylabs desktop tools.**
 
-[Cleanator](https://github.com/blackberrylabs/cleanator), [MCProster](https://github.com/blackberrylabs/mcproster)
-and [Permitt](https://github.com/blackberrylabs/permitt) are built on the same principle —
+[Cleanator](https://github.com/blackberrylabs/cleanator), [MCProster](https://github.com/blackberrylabs/mcproster),
+[Permitt](https://github.com/blackberrylabs/permitt) and [Linstruct](https://github.com/blackberrylabs/linstruct)
+are built on the same principle —
 show, explain, never act in the user's place — and look the same: the same palette, the same
 cards and pills, the same footer with `EN · FR` and the theme toggle, the same way of
 remembering a language. This crate holds that common face, so each app keeps only what is
@@ -57,6 +58,6 @@ prefs.remember(lang, false);
 prefs.save();
 ```
 
-Status: **0.1.0**, used by Cleanator, MCProster and Permitt. Not on crates.io.
+Status: **0.1.0**, used by Cleanator, MCProster, Permitt and Linstruct. Not on crates.io.
 
 By [Alexandre Do](https://github.com/blackberrylabs). MIT — see [LICENSE](LICENSE).
