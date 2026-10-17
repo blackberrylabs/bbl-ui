@@ -26,6 +26,14 @@ its own.
 No business logic, no network. The only file this crate ever writes is the app's
 `settings.json`, through `Prefs::save`. iced is pinned to `0.13.1` here.
 
+## Part of Blackberrylabs
+
+One of the three shared crates of the [Blackberrylabs](https://github.com/blackberrylabs)
+family — with [`bbl-hostrules`](https://github.com/blackberrylabs/bbl-hostrules) (the files of AI hosts) and [`bbl-report`](https://github.com/blackberrylabs/bbl-report) (the tower's contract) — behind the control tower and its modules (Cleanator, MCProster,
+Permitt). A new module starts from the [module template](https://github.com/blackberrylabs/template);
+the procedure is [`docs/new-module.md`](https://github.com/blackberrylabs/blackberrylabs/blob/main/docs/new-module.md)
+in the tower.
+
 ## Use
 
 ```toml
